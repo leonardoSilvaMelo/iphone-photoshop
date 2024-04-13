@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    padding: 4rem;
+    background-color:rgba(247, 157, 124, 0.993);
+}
+
+nav ul{
+    display: flex;/*Deixando itens lado a lado*/
+    justify-content: center;/*Centralizando*/
+}
+
+nav ul li{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(56, 32, 1);
+}
+
+nav ul li a:hover{
+    transition: 0.9s;
+    color: brown;
+}
+
+.home{
+    padding: 18rem;
+    background-image: url(./image/Iphone-14.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.home h1{
+    font-size: 3.3rem;
+    margin-top: -5rem;
+}
+
+.home p{
+    font-size: 1.3rem;
+    margin: 20px auto;
+}
+
+.home a button{
+    padding: 10px;
+    width: 16rem;
+    color: white;
+    background-color: coral;
+}
+
+.home a button:hover{
+    transition: 0.9s;
+    color: white;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.home span{
+    color: coral;
+}
+
+.lorem{
+    padding: 15rem;
+    background-color: coral;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+}

@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 header{
     padding: 4rem;
-    background-color:rgba(247, 157, 124, 0.993);
+    background-color:black;
 }
 
 nav ul{
@@ -21,12 +22,12 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: rgb(56, 32, 1);
+    color: white
 }
 
 nav ul li a:hover{
     transition: 0.9s;
-    color: brown;
+    color: rgb(162, 0, 255);
 }
 
 .home{
@@ -50,24 +51,65 @@ nav ul li a:hover{
     padding: 10px;
     width: 16rem;
     color: white;
-    background-color: coral;
+    background-color: rgb(162, 0, 255);
+    border: none;
 }
 
 .home a button:hover{
     transition: 0.9s;
     color: white;
-    background-color: cornflowerblue;
+    background-color: rgb(85, 85, 241);
     cursor: pointer;
 }
 
 .home span{
-    color: coral;
+    color: rgb(162, 0, 255);
 }
 
 .lorem{
     padding: 15rem;
-    background-color: coral;
+    background-color: black;
+    color: white;
     font-size: 25px;
     display: flex;
     text-align: center;
+}
+
+.apple-watch{
+    padding: 18rem;
+    background-image: url(./image/hand2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.informacoes-watch{
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-top: -20rem;
+}
+
+.informacoes-watch h2{
+    font-size: 3rem;
+}
+
+.informacoes-watch p{
+    margin: 1.8rem auto;
+    font-size: 1.5rem;
+}
+
+.informacoes-watch button{
+    padding: 10px;
+    width: 10rem;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #0071e3;
+    background-color: black;
+    color:#0071e3;
+}
+
+.informacoes-watch button:hover{
+    background-color: #0071e3;
+    color: white;
+    transition: 0.9s;
 }

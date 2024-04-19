@@ -6,8 +6,8 @@
 }
 
 header{
-    padding: 4rem;
-    background-color:black;
+    padding: 1rem;
+    background-color:rgba(0, 0, 0, 0.74);
 }
 
 nav ul{
@@ -17,7 +17,7 @@ nav ul{
 
 nav ul li{
     margin-right: 20px;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 nav ul li a{
